@@ -97,13 +97,13 @@
 "ReactivateAppExtension" = "Reactivate app extension";
 "ExtensionAlmostDone" = "Almost done!";
 "ExtensionEnable" = "Activate app extension";
-"ExtensionInSafari" = "In Safari, find Bitwarden using the share icon (hint: scroll to the right on the bottom row of the menu).";
+"ExtensionInSafari" = "In Safari, find PushWarden using the share icon (hint: scroll to the right on the bottom row of the menu).";
 "ExtensionInstantAccess" = "Get instant access to your passwords!";
 "ExtensionReady" = "You’re ready to log in!";
 "ExtensionSetup" = "Your logins are now easily accessible from Safari, Chrome, and other supported apps.";
-"ExtensionSetup2" = "In Safari and Chrome, find Bitwarden using the share icon (hint: scroll to the right on the bottom row of the share menu).";
-"ExtensionTapIcon" = "Tap the Bitwarden icon in the menu to launch the extension.";
-"ExtensionTurnOn" = "To turn on Bitwarden in Safari and other apps, tap the “more” icon on the bottom row of the menu.";
+"ExtensionSetup2" = "In Safari and Chrome, find PushWarden using the share icon (hint: scroll to the right on the bottom row of the share menu).";
+"ExtensionTapIcon" = "Tap the PushWarden icon in the menu to launch the extension.";
+"ExtensionTurnOn" = "To turn on PushWarden in Safari and other apps, tap the “more” icon on the bottom row of the menu.";
 "Favorite" = "Favorite";
 "Fingerprint" = "Fingerprint";
 "GeneratePassword" = "Generate password";
@@ -131,7 +131,7 @@
 "PasswordHint" = "Password hint";
 "PasswordHintAlert" = "We’ve sent you an email with your master password hint.";
 "PasswordOverrideAlert" = "Are you sure you want to overwrite the current password?";
-"PushNotificationAlert" = "Bitwarden keeps your vault automatically synced by using push notifications. For the best possible experience, please select “Allow” on the following prompt when asked to allow push notifications.";
+"PushNotificationAlert" = "PushWarden keeps your vault automatically synced by using push notifications. For the best possible experience, please select “Allow” on the following prompt when asked to allow push notifications.";
 "Security" = "Security";
 "ItemUpdated" = "Item saved";
 "Submitting" = "Submitting…";
@@ -261,7 +261,7 @@
 "ShowWebsiteIcons" = "Show website icons";
 "ShowWebsiteIconsDescription" = "Show a recognizable image next to each login.";
 "IconsUrl" = "Icons server URL";
-"AutofillWithBitwarden" = "Autofill with Bitwarden";
+"AutofillWithBitwarden" = "Autofill with PushWarden";
 /* Section header and screen title for viewing/managing a cipher's collections. */
 "Collections" = "Collections";
 /* Section header and screen title for viewing/managing a cipher's shared folders. */
@@ -302,9 +302,9 @@
 "AutofillTurnOn2" = "2. Tap “Passwords”";
 "AutofillTurnOn3" = "3. Tap “AutoFill Passwords”";
 "AutofillTurnOn4" = "4. Turn on AutoFill";
-"AutofillTurnOn5" = "5. Select “Bitwarden”";
+"AutofillTurnOn5" = "5. Select “PushWarden”";
 "PasswordAutofill" = "Password autofill";
-"BitwardenAutofillAlert2" = "The easiest way to add new logins to your vault is by using the Bitwarden Password AutoFill extension. Learn more about using the Bitwarden Password AutoFill extension by navigating to the “Settings” screen.";
+"BitwardenAutofillAlert2" = "The easiest way to add new logins to your vault is by using the PushWarden Password AutoFill extension. Learn more about using the PushWarden Password AutoFill extension by navigating to the “Settings” screen.";
 "InvalidEmail" = "Invalid email address.";
 "InvalidEmailAddresses" = "Invalid email addresses";
 "NoEmailAddressesEntered" = "No email addresses entered";
@@ -682,14 +682,14 @@
 "ExploreTheGenerator" = "Explore the generator";
 "LearnMoreAboutGeneratingSecureLoginCredentialsWithAGuidedTour" = "Learn more about generating secure login credentials with a guided tour.";
 "ExportVaultFilePwProtectInfo" = "This file export will be password protected and require the file password to decrypt.";
-"IntroCarouselPage1Title" = "Security, prioritized";
-"IntroCarouselPage1Message" = "Save logins, cards, and identities to your secure vault. Bitwarden uses zero-knowledge, end-to-end encryption to protect what’s important to you.";
-"IntroCarouselPage2Title" = "Quick and easy login";
-"IntroCarouselPage2Message" = "Set up biometric unlock and autofill to log into your accounts without typing a single letter.";
-"IntroCarouselPage3Title" = "Level up your logins";
-"IntroCarouselPage3Message" = "Use the generator to create and save strong, unique passwords for all your accounts.";
-"IntroCarouselPage4Title" = "Your data, when and where you need it";
-"IntroCarouselPage4Message" = "Save unlimited passwords across unlimited devices with Bitwarden mobile, browser, and desktop apps.";
+"IntroCarouselPage1Title" = "Welcome to PushWarden";
+"IntroCarouselPage1Message" = "An independent fork of Bitwarden with phone approval. Sign in with your Bitwarden account: your vault stays on Bitwarden’s servers and keeps working with the official apps. PushWarden is not affiliated with Bitwarden, Inc.";
+"IntroCarouselPage2Title" = "Protected";
+"IntroCarouselPage2Message" = "Mark your most important logins as Protected. A computer can fill them only after you approve on this iPhone, or after you type your protection password. Malware on a computer can’t read them from your vault.";
+"IntroCarouselPage3Title" = "Set it up on this iPhone";
+"IntroCarouselPage3Message" = "After you log in, open Settings → Vault → Protected items and choose a protection password. Then edit a login and set Protection to Protected.";
+"IntroCarouselPage4Title" = "Connect your computer";
+"IntroCarouselPage4Message" = "Install the PushWarden browser extension, open its Settings → Phone approval, enter your relay address and show the QR code. On this iPhone, open Settings → Vault → Protected items → Computer approvals and scan it.";
 "AccountSetup" = "Account setup";
 "SetUpUnlock" = "Set up unlock";
 "SetUpBiometricsOrChooseAPinCodeToQuicklyAccessYourVaultAndAutofillYourLogins" = "Set up biometrics or choose a PIN code to quickly access your vault and autofill your logins.";
@@ -740,18 +740,18 @@
 "ErrorConnectingWithTheDuoServiceUseADifferentTwoStepLoginMethodOrContactDuoForAssistance" = "Error connecting with the Duo service. Use a different two-step login method or contact Duo for assistance.";
 "ThePreAuthUrlsCouldNotBeLoadedToStartTheAccountCreation" = "The Pre Auth Urls could not be loaded to start the account creation.";
 "FromYourDeviceSettingsToggleOnAutoFillPasswordsAndPasskeys" = "From your device settings, **toggle on autofill Passwords and Passkeys.**";
-"ToggleOffICloudToMakeBitwardenYourDefaultAutoFillSource" = "**Toggle off iCloud Keychain** to make Bitwarden your default autofill source.";
-"ToggleOnBitwardenToUseYourSavedPasswordsToLogIntoYourAccounts" = "**Toggle on Bitwarden** to use your saved passwords to log into your accounts.";
+"ToggleOffICloudToMakeBitwardenYourDefaultAutoFillSource" = "**Toggle off iCloud Keychain** to make PushWarden your default autofill source.";
+"ToggleOnBitwardenToUseYourSavedPasswordsToLogIntoYourAccounts" = "**Toggle on PushWarden** to use your saved passwords to log into your accounts.";
 "TurnOnAutoFill"= "Turn on autofill";
 "UseAutoFillToLogIntoYourAccountsWithASingleTap" = "Use autofill to log into your accounts with a single tap.";
 "NeedHelpCheckOutAutofillHelp" = "Need help? Check out **[autofill help](%1$@)**";
 "TurnOnLater" = "Turn on later";
 "TurnOnAutoFillLaterQuestion" = "Turn on autofill later?";
 "YouCanReturnToCompleteThisStepAnytimeInSettings" = "You can return to complete this step anytime in Settings.";
-"ContinueToBitwarden" = "Continue to Bitwarden";
+"ContinueToBitwarden" = "Continue to PushWarden";
 "BackToSettings" = "Back to settings";
 "YoureAllSet" = "You’re all set!";
-"AutoFillActivatedDescriptionLong" = "You can now use autofill to log into apps and websites using your saved passwords. Now, you can explore everything else Bitwarden has to offer.";
+"AutoFillActivatedDescriptionLong" = "You can now use autofill to log into apps and websites using your saved passwords. Now, you can explore everything else PushWarden has to offer.";
 "GetStarted" = "Get started";
 "Dismiss" = "Dismiss";
 "SaveAndProtectYourData" = "Save and protect your data";
@@ -903,7 +903,7 @@
 "EnableTemporaryLoggingDescriptionLong" = "Enable temporary logging to collect and inspect logs locally. When enabled, application states and network calls may be logged—never sensitive vault information.";
 "ToGetStartedSetALoggingDurationDescriptionLong" = "To get started, set a logging duration. Logging will automatically turn off after this period, giving you time to capture activity while reproducing any issues.";
 "LoggingDuration" = "Logging duration";
-"LogsWillBeAutomaticallyDeletedAfter30DaysDescriptionLong" = "Logs will be automatically deleted after 30 days. Bitwarden is only able to access your log data when you share it.";
+"LogsWillBeAutomaticallyDeletedAfter30DaysDescriptionLong" = "Logs will be automatically deleted after 30 days. PushWarden is only able to access your log data when you share it.";
 "ForDetailsOnWhatIsAndIsntLoggedVisitTheBitwardenHelpCenter" = "For details on what is and isn’t logged, visit the **[Bitwarden help center](%1$@)**.";
 "ShowMore" = "Show more";
 "ShowLess" = "Show less";
@@ -964,7 +964,7 @@
 "LastEdited" = "Last edited: %1$@";
 "PasswordLastUpdated" = "Password last updated: %1$@";
 "DecryptionError" = "Decryption error";
-"BitwardenCouldNotDecryptThisVaultItemDescriptionLong" = "Bitwarden could not decrypt this vault item. Copy and share this error report with customer success to avoid additional data loss.";
+"BitwardenCouldNotDecryptThisVaultItemDescriptionLong" = "PushWarden could not decrypt this vault item. Copy and share this error report with customer success to avoid additional data loss.";
 "CopyErrorReport" = "Copy error report";
 "ErrorCannotDecrypt" = "[error: cannot decrypt]";
 "AccountsSyncedFromBitwardenApp" = "Accounts synced from Bitwarden app";
@@ -1019,7 +1019,7 @@
 "Skip" = "Skip";
 "Steam" = "Steam";
 "StoreAllOfYourLoginsAndSyncVerificationCodesDirectlyWithTheAuthenticatorApp" = "Store all of your logins and sync verification codes directly with the Authenticator app.";
-"SyncWithBrowserDescriptionLong" = "To connect to %1$@, sync your default browser with the Bitwarden mobile app. When your browser opens, complete sign-in if prompted. Once syncing is complete, you'll be returned to this app.";
+"SyncWithBrowserDescriptionLong" = "To connect to %1$@, sync your default browser with the PushWarden mobile app. When your browser opens, complete sign-in if prompted. Once syncing is complete, you'll be returned to this app.";
 "SyncWithBitwardenApp" = "Sync with Bitwarden app";
 "SyncWithBrowser" = "Sync with browser";
 "SyncWithTheBitwardenApp" = "Sync with the Bitwarden app";
@@ -1035,7 +1035,7 @@
 "SelectAccount" = "Select account";
 /* The header for the account switcher sheet. This is always plural (maximally so) if applicable regardless of the number of accounts being displayed. */
 "Accounts" = "Accounts";
-"UriMatchDetectionControlsHowBitwardenIdentifiesAutofillSuggestions" = "URI match detection controls how Bitwarden identifies autofill suggestions.";
+"UriMatchDetectionControlsHowBitwardenIdentifiesAutofillSuggestions" = "URI match detection controls how PushWarden identifies autofill suggestions.";
 "StartsWithIsAnAdvancedOptionWithIncreasedRiskOfExposingCredentials" = "“Starts with” is an advanced option with increased risk of exposing credentials.";
 "RegularExpressionIsAnAdvancedOptionWithIncreasedRiskOfExposingCredentials" = "“Regular expression” is an advanced option with increased risk of exposing credentials if used incorrectly.";
 "StartsWithAdvanced" = "Starts with (advanced)";
@@ -1062,7 +1062,7 @@
 "ContactYourAdminToRegainAccess" = "Contact your admin to regain access.";
 "LeaveX" = "Leave %1$@";
 "YouLeftTheOrganization" = "You left the organization";
-"ItemTransferRequiresMainAppDescriptionLong" = "An organization is requesting ownership of your personal items. Open the main Bitwarden app to review and complete this request.";
+"ItemTransferRequiresMainAppDescriptionLong" = "An organization is requesting ownership of your personal items. Open the main PushWarden app to review and complete this request.";
 "ThisSettingIsManagedByYourOrganization" = "This setting is managed by your organization.";
 "YourOrganizationHasSetTheMaximumSessionTimeoutToX" = "Your organization has set the maximum session timeout to %1$@.";
 "YourOrganizationHasSetTheDefaultSessionTimeoutToNever" = "Your organization has set the default session timeout to never.";
@@ -1121,7 +1121,7 @@
 "MasterPasswordUnlockCleared" = "masterPasswordUnlock cleared.";
 "SsoCookiesCleared" = "SSO cookies cleared";
 "YourRequestWasInterruptedBecauseTheAppNeededToReAuthenticatePleaseTryAgain" = "Your request was interrupted because the app needed to re-authenticate. Please try again.";
-"AutofillWithBitwardenDescriptionLong" = "Bitwarden can suggest your passwords and other credentials when you sign in to apps and websites.";
+"AutofillWithBitwardenDescriptionLong" = "PushWarden can suggest your passwords and other credentials when you sign in to apps and websites.";
 "LearnMoreAboutAutofill" = "Learn more about autofill";
 "TurnOnNow" = "Turn on now";
 "AcceptTransfer" = "Accept transfer";

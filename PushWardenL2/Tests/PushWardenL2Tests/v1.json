@@ -1,0 +1,151 @@
+{
+  "keyItem": {
+    "password": "correct horse battery staple",
+    "ops": 3,
+    "memMiB": 64,
+    "saltHex": "01010101010101010101010101010101",
+    "nonceHex": "020202020202020202020202020202020202020202020202",
+    "keyHex": "4242424242424242424242424242424242424242424242424242424242424242",
+    "fieldValue": "{\"v\":1,\"kdf\":\"argon2id\",\"ops\":3,\"memMiB\":64,\"salt\":\"AQEBAQEBAQEBAQEBAQEBAQ==\",\"wrappedKey\":\"AgICAgICAgICAgICAgICAgICAgICAgICWs/mD9cRLHihrh+qinDlWX4/ypRQBSYO5PEhJa8VhBHIbZOR37gGxSWZqxuGGBdU\"}"
+  },
+  "fields": [
+    {
+      "keyHex": "4242424242424242424242424242424242424242424242424242424242424242",
+      "field": "password",
+      "itemId": "1b2c3d4e-0000-4000-8000-000000000001",
+      "username": "alice@example.com",
+      "hosts": [
+        "github.com"
+      ],
+      "secret": "hunter2",
+      "nonceHex": "030303030303030303030303030303030303030303030303",
+      "value": "l2:v1:AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD0hQ6XH7UgWUamnxqI+TJpI5JtrQDU5Vph4uk1PecNdFZ9QoAKGs7/IAdlG5LYq3LLXoT0jBBiwEMAekaY5VZPOtZkbLT6T6WFCAyeJdpnjD4BWtUo7jayTTXJisNXWfar3PkEYorM9YP5N3ixkoTOzIGuACLRqPsoyu1OnUAp9OKSw8W"
+    },
+    {
+      "keyHex": "4242424242424242424242424242424242424242424242424242424242424242",
+      "field": "password",
+      "itemId": "1b2c3d4e-0000-4000-8000-000000000001",
+      "username": "alice@example.com",
+      "hosts": [
+        "accounts.example.org",
+        "example.net"
+      ],
+      "secret": "pässwörd ✓ \"quoted\"",
+      "nonceHex": "040404040404040404040404040404040404040404040404",
+      "value": "l2:v1:BAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEr9oZWe/HA82Xxsr0crUnzrkqidUu1Qzj/1c4iz+hm4qq2AhPX2JWKijMRAXTDAfgvtQJGdUpK/fWXzjXCEiDTu+YOdJugJkY8ggsOX0/YMAScMglmqJlNbDOLGhc4M6CHdhVpEeRk9t8/TIEfNsWoBcnj9OautpvYI7iE5dFfEK6EauZ583r1oOJqIxkeb7GaNp9e3xYURzkIDGAiHWUhepNU8DLUzbUaA6KVVKu"
+    },
+    {
+      "keyHex": "4242424242424242424242424242424242424242424242424242424242424242",
+      "field": "totp",
+      "itemId": "1b2c3d4e-0000-4000-8000-000000000001",
+      "username": "alice@example.com",
+      "hosts": [
+        "github.com"
+      ],
+      "secret": "otpauth://totp/x?secret=JBSWY3DPEHPK3PXP",
+      "nonceHex": "050505050505050505050505050505050505050505050505",
+      "value": "l2:v1:BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFYZe8Mz+GZw+sovOsKeCcePAG/GBPnGXWw/rYAB95AjvK4Icb/dqK13r2kEARM81MGl9HhUF/lIIIw+JdkTO6p/uAdnp4Vtu7r0+uz5g5SiBXbyppQS9COBJoYe2jVOGOdl4dZ2e1+MryR0o+hzmuHB/QSR1qyF0dnvo7IwLD0ZFa7iQ5i2WDOQ4j9S6aA9gzqg0NQPZpc9jEHmZQGeD5Ask="
+    },
+    {
+      "keyHex": "4242424242424242424242424242424242424242424242424242424242424242",
+      "field": "password",
+      "itemId": "1b2c3d4e-0000-4000-8000-000000000001",
+      "username": "alice@example.com",
+      "hosts": [],
+      "secret": "phone-only",
+      "nonceHex": "090909090909090909090909090909090909090909090909",
+      "value": "l2:v1:CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJNRxJNtiukMm9IwljDkW1kX8G9VmrRo6d67stWYY7N0lBuE11ynj+RInI4sxHDKGtH1YBfOktbwHOpIGoOvm1fBE1AHPpqq6nmg4KkwNlqSag0WJx29omODN/6FwEN7RmnaiUndRmdZhuWhmlWRrihuLlU7bnPSqCQdQg"
+    }
+  ],
+  "box": {
+    "senderSeedHex": "2020202020202020202020202020202020202020202020202020202020202020",
+    "recipientSeedHex": "1010101010101010101010101010101010101010101010101010101010101010",
+    "senderPkHex": "e7a27bd3af9c11c75aa9aa44ae1f31a941458b708ced3d7ac2ff8ad0ec3bb536",
+    "recipientPkHex": "fea182911db0e69fd73656df0f4c840e613c6cd516871081ce01bbceb15dbf28",
+    "nonceHex": "060606060606060606060606060606060606060606060606",
+    "message": {
+      "v": 1,
+      "type": "fillRequest",
+      "requestId": "MDAwMDAwMDAwMDAwMDAwMA==",
+      "itemId": "1b2c3d4e-0000-4000-8000-000000000001",
+      "origin": "https://github.com",
+      "time": 1762646400000
+    },
+    "body": "BgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGAgDBYOGvKK9VAS++tW5TSv1opZadRY6ZXyjUofVsx43MPcGz3cZGz9ZQW8rdmbQW6RkWIhBndo0kRjT5BTHqF3aymT27z5A1M+Tg+I0ebGrruBiyjnHy0Nejr6zMMzfmvJku/t6SkHBnxYLxEg8Od5rYdWbiIaII3gMgaWiKtGZzY6Ayrvo+42KQgVU+OeJPXGcwYWTJ+NUSoLUwwDfxdOdQvbF8oYcYk12OiHfSNVFgFKglEIw="
+  },
+  "pairing": {
+    "phonePkHex": "fea182911db0e69fd73656df0f4c840e613c6cd516871081ce01bbceb15dbf28",
+    "extPkHex": "e7a27bd3af9c11c75aa9aa44ae1f31a941458b708ced3d7ac2ff8ad0ec3bb536",
+    "nExtHex": "0707070707070707070707070707070707070707070707070707070707070707",
+    "nPhoneHex": "0808080808080808080808080808080808080808080808080808080808080808",
+    "commitHex": "25e584adc2943fc2dfdbbd64311490460e4286400e791ba5fe923bf0b835a47b",
+    "phrase": "spinster-spherical-wildfowl-villain-ozone",
+    "qrSecretHex": "0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a",
+    "qrProofHex": "f4967c0eb95d1d1b4d1907cfc6e22d77309c2030f2a36b28cd8600726faded27"
+  },
+  "hostMatch": [
+    {
+      "origin": "https://github.com",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": true
+    },
+    {
+      "origin": "https://gist.github.com:8443",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": true
+    },
+    {
+      "origin": "https://evilgithub.com",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": false
+    },
+    {
+      "origin": "https://github.com.evil.com",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": false
+    },
+    {
+      "origin": "http://github.com",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": false
+    },
+    {
+      "origin": "http://localhost:3000",
+      "hosts": [
+        "localhost"
+      ],
+      "allowed": true
+    },
+    {
+      "origin": "https://GitHub.COM",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": true
+    },
+    {
+      "origin": "https://example.org",
+      "hosts": [
+        "a.example.org"
+      ],
+      "allowed": false
+    },
+    {
+      "origin": "javascript:alert(1)",
+      "hosts": [
+        "github.com"
+      ],
+      "allowed": false
+    }
+  ]
+}

@@ -24,6 +24,9 @@ packages:
   ViewInspector:
     url: https://github.com/nalexn/ViewInspector
     exactVersion: 0.10.5
+  # PushWarden L2 vault and PC autofill core (PROTOCOL.md); tested on its own with `swift test`.
+  PushWardenL2:
+    path: PushWardenL2
 targetTemplates:
   # Adds common include/excludes for app and framework targets.
   CommonTarget:

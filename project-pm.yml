@@ -376,6 +376,7 @@ targets:
       - path: BitwardenWatchShared
     dependencies:
       - package: BitwardenSdk
+      - package: PushWardenL2
       - target: BitwardenKit/AuthenticatorBridgeKit
       - target: BitwardenKit/BitwardenKit
       - target: BitwardenKit/BitwardenResources
