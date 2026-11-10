@@ -140,7 +140,7 @@ public protocol L2PcVaultAccess: Sendable {
 }
 
 /// Phone side of PC autofill: relay registration, QR pairing, and approving fill requests
-/// (DESIGN.md flows 3–4, PROTOCOL.md §5b–6). The app calls `setActive(true)` while it is in the
+/// (PROTOCOL.md §5b–6). The app calls `setActive(true)` while it is in the
 /// foreground with the vault unlocked, so requests reach the approval screen at once; otherwise
 /// the relay queues them for 120 s and pushes an alert that opens the app.
 public actor L2PcEngine {

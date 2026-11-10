@@ -21,7 +21,7 @@ public struct L2ItemStatus: Equatable, Sendable {
     public var username: String?
 }
 
-/// Core L2 operations on a login for the active user (DESIGN.md, PROTOCOL.md §2), independent of
+/// Core L2 operations on a login for the active user (PROTOCOL.md §2), independent of
 /// the SDK's cipher types: the app maps `CipherView` fields in and out. Reading decrypts L2
 /// fields; writing never lets plaintext replace an L2 value.
 public final class L2Vault: @unchecked Sendable {
